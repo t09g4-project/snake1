@@ -4,12 +4,12 @@ public class SnakePosition {
     public int col;
     public int row;
 
-    SnakePos(int row, int col) {
+    SnakePosition(int row, int col) {
         this.col = col;
         this.row = row;
     }
 
-    SnakePos() {
+    SnakePosition() {
         col = 0;
         row = 0;
     }
